@@ -1,6 +1,6 @@
-export default function destructuring(object) {
+export default function destructuring({ special }) {
   const result = [];
-  for (const item of object.special) {
+  for (const item of special) {
     const {
       id,
       name,
